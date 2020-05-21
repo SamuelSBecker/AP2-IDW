@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
+  
+header {
+  background-color: tomato !important;
+  color: white;
+  text-align: center;
+  padding: 3%;
+}
+  
+header h1 {
+  margin: 0;
+}
+  
+section {
+  text-align: start;
+} 
+section .banner {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: start;
+  background-repeat: no-repeat;
+  height: 40%;
+  width: 100%;
+}
+  
+section h1 {
+  line-height: 1.04;
+  letter-spacing: -.015em;
+  margin: 0;
+
+}
+  
+section h2 {
+  color: rgba(0, 0, 0, 0.541176);
+  font-size: 28px;
+  line-height: 1.22;
+  letter-spacing: -.012em;
+  margin-top: 5px;
+  margin-bottom: 22px;
+
+}
+  
+section p {
+  margin-top: 29px;
+}
+  
+a {
+  color: tomato;
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: underline;
+}
+.meio{
+  padding: 0 6% 0 6% !important;
+}
+header div{
+  padding-top: 2%;
+  text-align: center;
+}
